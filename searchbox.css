@@ -1,0 +1,41 @@
+    body {
+    margin: 0;
+    padding: 0;
+   }
+
+   
+   #search{
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #2f3640;
+    height: 40px;
+    border-radius: 100px;
+    padding: 10px;
+    color:white; 
+    width: 600px;
+   }
+   
+   #search:hover > .search-btn {
+    background: white;
+    color: black;
+   }
+   .search-btn {
+    float: right;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #2f3640;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+    color: white;
+    cursor: pointer;
+   }
+   
+   .search-btn > i {
+    font-size: 20px;
+   }
+   

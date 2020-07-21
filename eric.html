@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Index Page</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="searchbox.css">
+    <script src= "jquery-3.5.1.js"></script>
+    <script src= "search.js"></script>
+    <script src="https://kit.fontawesome.com/7e962a6350.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <nav class="navbar navbar-dark bg-dark">
+        <a class="navbar-brand bg-info p-2" href="./login.html">Login</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Plots    
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <!--Need to change html path and page name-->
+                        <a class="dropdown-item" href="./benoit.html">Benoit's Page</a>
+                        <a class="dropdown-item" href="./eric.html">Second Industrial Revolution</a>
+                        <a class="dropdown-item" href="./edwin.html">Edwin's page</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container">
+        <section class="row">
+            <div class="col-lg-4 col-md-12">
+                    <div class="plot-content">
+
+                        <h1 class="header">Second Industrial Revolution 1870-1940</h1>
+                        <hr>
+                        <p> 
+                            The Second Industrial Revolution, also known as the Technological Revolution, focused on steel production, the automobile and advances in electricity.  Discoveries in the field of electricity improved communication technologies.
+                        </p>
+                        <p>
+                            In this project, we want to see if there is a correlation between temperature and industrialized country.
+                        </p>
+                        <p>
+                           Important dates:<br>
+                            Second Industrial Revolution: 1870-1914<br>
+                            Henry Ford assembly line: December, 1913<br>
+                            World War II: 1939-1945<br>
+                        </p>
+                    
+                    </div>
+                </div>
+
+              
+                    <div class="col-lg-4 col-md-12">
+                        <input id="search" type="text" placeholder="Search list: Istanbul, Kinshasa, Lima, Taipei, Beijing, Berlin, London, New York, Chicago, Rome, Paris, Tokyo" />
+                        <a class="search-btn" href="#">
+                            <i class="fas fa-search"></i>
+                        </a>
+                    </div>
+                    <div id="results"></div>​
+
+                </div>
+            
+
+            <div class="col-lg-4 col-md-12">
+                <div class="visual-plot-content">
+                    <h2 class="header">Primarily countries for Second Industrial Revolution</h2>
+                    <hr>
+                    <div class="container">
+                        <div class="row">
+                            <img src="./graph/berlin.png" width="150" alt="Berlin" style="float: left; width: 50%; height: 200px;">
+                            <img src="./graph/london.png" width="150" alt="London" style="float: left; width: 50%; height: 200px;">
+                            <img src="./graph/newyork.png" width="150" alt="New York" style="float: left; width: 50%; height: 200px;">
+                            <img src="./graph/chicago.png" width="150" alt="Chicago" style="float: left; width: 50%; height: 200px;">
+                            <img src="./graph/rome.png" width="150" alt="Rome" style="float: left; width: 50%; height: 200px;">
+                            <img src="./graph/paris.png" width="150" alt="Paris" style="float: left; width: 50%; height: 200px;">
+                            <img src="./graph/tokyo.png" width="150" alt="Tokyo" style="float: left; width: 50%; height: 200px;">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-12">
+                <div class="visual-plot-content">
+                    <h2 class="header">Non-primary countries</h2>
+                    <hr>
+                    <div class="container">
+                        <div class="row">
+                            <img src="./graph/beijing.png" width="150" alt="Beijing" style="float: left; width: 50%; height: 200px;">
+                            <img src="./graph/istanbul.png" width="150" alt="Istanbul" style="float: left; width: 50%; height: 200px;">
+                            <img src="./graph/kinshasa.png" width="150" alt="Kinshasa" style="float: left; width: 50%; height: 200px;">
+                            <img src="./graph/lima.png" width="150" alt="Lima" style="float: left; width: 50%; height: 200px;">
+                            <img src="./graph/taipei.png" width="150" alt="Taipei" style="float: left; width: 50%; height: 200px;">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-12">
+                <div class="plot-content">
+
+                    <h1 class="header">Conclusion</h1>
+                    <hr>
+                    <p> 
+                        Both primary and non-primary countries have signs of up trend in temperature, which prove our hypothesis was wrong.
+                        The reason for non-primary countries to experience warmer temperture might be colonization.
+                    </p>
+                
+                </div>
+            </div>
+
+</body>
+</html>
+
