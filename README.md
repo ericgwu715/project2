@@ -1,5 +1,5 @@
 # Project-2
-SQLers
+Team SQLers
 
 ## Description 
 For this project, we wanted to tell stories of different time periods and their impact on the warming of our Earth. Later, we will look at how the Second Industrial Revolution impacted major cities who did and did not take part in the industrialization as well as US States impacted by Factory Farming.
